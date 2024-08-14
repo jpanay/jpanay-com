@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
 import Overview from "./components/Overview/Overview";
 import Resources from "./components/Resources/Resources";
@@ -10,6 +10,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Overview />} />
         <Route path="/resources" element={<Resources />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
   );
