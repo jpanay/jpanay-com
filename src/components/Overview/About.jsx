@@ -1,4 +1,4 @@
-const Bio = () => {
+const About = () => {
   return (
     <div className="text-center">
       <h2 className="text-2xl font-medium mb-2 underline decoration-jpGreen">
@@ -9,4 +9,4 @@ const Bio = () => {
   );
 };
 
-export default Bio;
+export default About;
