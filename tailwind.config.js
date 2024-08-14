@@ -7,6 +7,7 @@ export default {
         jpGreen: "#76FA93",
         jpBlue: "#76C1FF",
         jpYellow: "#FFFD7E",
+        jpPurple: "#AA44FF",
       },
     },
   },

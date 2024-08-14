@@ -13,3 +13,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.custom-box-shadow {
+  box-shadow: -8px -2px 10px #76fa93, 0px 8px 10px #76c1ff,
+    8px -2px 10px #fffd7e;
+}
+
+.custom-drop-shadow {
+  filter: drop-shadow(-4px -2px 2px #76fa93) drop-shadow(0px 4px 2px #76c1ff)
+    drop-shadow(4px -2px 2px #fffd7e);
+}

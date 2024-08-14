@@ -9,7 +9,7 @@ const OverviewHeader = () => {
         <img
           src="headshot.jpg"
           alt="logo"
-          className="h-32 shadow-md shadow-jpYellow rounded-full"
+          className="h-32 custom-drop-shadow rounded-full"
         />
         {/* Main Info (Name, Title, and Location) */}
         <div className="space-y-2">
@@ -20,7 +20,7 @@ const OverviewHeader = () => {
             <h2 className="text-lg">Full Stack Software Engineer</h2>
             <div className="flex justify-center items-center space-x-2 text-zinc-400">
               <FontAwesomeIcon icon={faMapLocationDot} className="text-xs" />
-              <p className="text-sm">New York, New York</p>
+              <p className="text-sm ">New York, New York</p>
             </div>
           </div>
         </div>

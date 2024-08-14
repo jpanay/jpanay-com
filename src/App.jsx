@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
 import Overview from "./components/Overview/Overview";
-import "./App.css";
+import Resources from "./components/Resources/Resources";
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
       <Nav />
       <Routes>
         <Route path="/" element={<Overview />} />
+        <Route path="/resources" element={<Resources />} />
       </Routes>
     </div>
   );
