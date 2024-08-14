@@ -31,9 +31,9 @@ To Do (🔴, 🟡, ✅):
 ✅ Create the skill stack component and subcomponents and add to overview page
 ✅ Update headshot shadow to have multiple colors
 ✅ Set up the resources page with placeholder text
-🟡 Create an about section in the overview page
+✅ Create an about section in the overview page
 🟡 Create an experience section in the overview page
-🔴 Create a projects section in the overview page
+🟡 Create a projects section in the overview page
 🔴 Create a subnav for the overview page
 🔴 Ensure mobile friendliness and accessibility
 🔴 Final styling changes, typo checking, and clean up
