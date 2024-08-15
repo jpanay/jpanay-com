@@ -168,7 +168,7 @@ const Skills = () => {
   return (
     <div className="w-full max-w-2xl">
       <h2 className="text-center text-2xl font-medium underline decoration-jpYellow mb-2">
-        Technical Skills
+        Technical Proficiencies
       </h2>
       {/* Skill Search */}
       <SkillSearch skillQuery={skillQuery} setSkillQuery={setSkillQuery} />
