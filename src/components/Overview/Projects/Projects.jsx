@@ -5,7 +5,7 @@ const projects = [
     title: "ZenRent",
     subheader: "Web Application",
     description:
-      "An online apartment rental platform that connects landlords and tenants with over 1,500 no fee apartments.",
+      "An online apartment rental platform that connects landlords and tenants for over 1,500 NYC apartments every month.",
     link: "https://zenrentnyc.com/",
     image: "zenrent.png",
   },

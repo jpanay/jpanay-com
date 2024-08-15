@@ -156,6 +156,7 @@ const skillSections = [
 const Skills = () => {
   const [skillQuery, setSkillQuery] = useState("");
   const [foundSkills, setFoundSkills] = useState([]);
+  const [globalExpanded, setGlobalExpanded] = useState(false);
 
   useEffect(() => {
     const query = skillQuery.toLowerCase();
@@ -166,7 +167,23 @@ const Skills = () => {
   }, [skillQuery]);
 
   return (
-    <div className="w-full max-w-2xl">
+    <div className="w-full max-w-2xl min-h-[36rem]">
+      {/* Expand and Collapse */}
+      <div className="flex justify-center items-center text-sm text-zinc-500">
+        <button
+          className="px-2 hover:text-zinc-200"
+          onClick={() => setGlobalExpanded(true)}
+        >
+          Expand
+        </button>
+        <p className="cursor-pointer text-sm">|</p>
+        <button
+          className="px-2 hover:text-zinc-200"
+          onClick={() => setGlobalExpanded(false)}
+        >
+          Collapse
+        </button>
+      </div>
       {/* Skill Search */}
       <SkillSearch skillQuery={skillQuery} setSkillQuery={setSkillQuery} />
       {/* Skill Sections and Search Results */}
@@ -178,6 +195,7 @@ const Skills = () => {
             key={section.name}
             title={section.name}
             skills={section.skills}
+            globalExpanded={globalExpanded}
           />
         ))
       )}

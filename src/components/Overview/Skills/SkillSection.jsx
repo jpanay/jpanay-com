@@ -1,12 +1,16 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import SkillItem from "./SkillItem";
 
-const SkillSection = ({ title, skills }) => {
+const SkillSection = ({ title, skills, globalExpanded }) => {
   const [expanded, setExpanded] = useState(false);
 
   const toggleExpanded = () => setExpanded(!expanded);
+
+  useEffect(() => {
+    setExpanded(globalExpanded);
+  }, [globalExpanded]);
 
   return (
     <div>

@@ -46,7 +46,7 @@ const Overview = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center space-y-12 pb-32 px-8">
+    <div className="flex flex-col items-center space-y-12 pb-16 px-8">
       <Subnav activeSection={activeSection} />
       <Header />
       <div id="about" ref={aboutRef}>

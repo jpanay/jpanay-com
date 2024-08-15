@@ -15,22 +15,29 @@ const ExperienceItem = ({ experience }) => {
         </p>
       </div>
       {/* Company Name, Logo, Sector, Position, and Technologies */}
-      <div>
-        {/* Company Name and Logo */}
-        <div className="flex items-center space-x-2">
-          <h3 className="text-lg font-medium">{experience.company}</h3>
-          <div className="flex justify-center rounded">
-            <img
-              src={`/experiences/${experience.logo}`}
-              alt={`${experience.company} logo`}
-              className="object-fit max-h-4"
-            />
+      <div className="space-y-4">
+        <div>
+          {/* Company Name and Logo */}
+          <div className="flex items-center space-x-2">
+            <h3 className="text-lg font-medium whitespace-nowrap">
+              {experience.company}
+            </h3>
+            <div className="flex justify-center rounded">
+              <img
+                src={`/experiences/${experience.logo}`}
+                alt={`${experience.company} logo`}
+                className="object-fit max-h-4 min-w-4"
+              />
+            </div>
+          </div>
+          {/* Position and Sector */}
+          <div className="space-y-0.5">
+            <p className="text-sm font-medium text-zinc-400">
+              {experience.position}
+            </p>
+            <p className="text-xs text-zinc-400">{experience.category}</p>
           </div>
         </div>
-        {/* Position */}
-        <p className="text-sm font-medium text-zinc-400">{experience.title}</p>
-        {/* Sector */}
-        <p className="text-xs text-zinc-400">{experience.sector} Technology</p>
         {/* Technologies */}
         <ul className="flex flex-wrap mt-2">
           {experience.technologies.map((technology) => (

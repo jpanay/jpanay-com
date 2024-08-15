@@ -2,10 +2,10 @@ import ExperienceItem from "./ExperienceItem";
 const experiences = [
   {
     company: "The News Movement",
-    sector: "Media",
     logo: "tnm.svg",
+    position: "Full Stack Software Engineer",
+    category: "News & Media Technology",
     link: "https://www.thenewsmovement.com/",
-    title: "Full Stack Software Engineer",
     startDate: "2023",
     endDate: "2024",
     technologies: [
@@ -30,10 +30,10 @@ const experiences = [
   },
   {
     company: "Hideaway",
-    sector: "Restaurant",
     logo: "hideaway.png",
+    position: "Mobile Developer (Contract)",
+    category: "Restaurant Mobile App",
     link: "https://apps.apple.com/us/app/hideaway-happy-hours-near-me/id6444686101",
-    title: "Mobile Developer (Contract)",
     startDate: "2023",
     endDate: "2024",
     technologies: [
@@ -57,10 +57,10 @@ const experiences = [
   },
   {
     company: "Landis",
-    sector: "Real Estate",
     logo: "landis.svg",
+    position: "Full Stack Software Engineer",
+    category: "Real Estate Technology",
     link: "https://www.landis.com/",
-    title: "Full Stack Software Engineer",
     startDate: "2022",
     endDate: "2023",
     technologies: [
@@ -80,10 +80,10 @@ const experiences = [
   },
   {
     company: "Satellite.im",
-    sector: "Communications",
     logo: "satellite.webp",
+    position: "Junior Software Engineer",
+    category: "Communications Platform",
     link: "https://satellite.im/",
-    title: "Junior Software Engineer",
     startDate: "2021",
     endDate: "2022",
     technologies: [
