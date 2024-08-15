@@ -40,6 +40,6 @@ To Do (🔴, 🟡, ✅):
 ✅ Add buttons to expand and collapse all skills
 ✅ Deploy and connect to jpanay.com
 ✅ Animate headshot drop shadow on mouse move or scroll for mobile
-🟡 Animate nav logos with typing sequence
+✅ Animate nav logos with typing sequence
 🟡 Add fading brush strokes on mouse move
 🔴 Create resources section
