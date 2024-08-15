@@ -10,7 +10,7 @@ const projects = [
     image: "zenrent.png",
   },
   {
-    title: "Personal Site V1 (2021)",
+    title: "Personal Site V1",
     subheader: "Website",
     description:
       "My first personal website built with vanilla HTML, CSS, and JavaScript.",
@@ -38,9 +38,6 @@ const projects = [
 const Projects = () => {
   return (
     <div className="max-w-2xl">
-      <h2 className="text-2xl text-center font-medium mb-4 underline decoration-jpBlue">
-        Projects
-      </h2>
       {projects.map((project, index) => (
         <ProjectItem key={index} project={project} />
       ))}

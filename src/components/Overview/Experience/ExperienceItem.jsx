@@ -5,7 +5,7 @@ const ExperienceItem = ({ experience }) => {
 
   return (
     <div
-      className="flex items-start space-x-4 py-4 px-8 border border-transparent rounded hover:border-zinc-700 hover:bg-zinc-800 hover:shadow-md cursor-pointer duration-300"
+      className="flex items-start space-x-4 py-4 px-4 border border-transparent rounded hover:border-zinc-700 hover:bg-zinc-800 hover:shadow-md cursor-pointer duration-300"
       onClick={openLink}
     >
       {/* Dates and Logo */}

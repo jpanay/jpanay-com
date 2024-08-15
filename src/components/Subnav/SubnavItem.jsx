@@ -17,7 +17,7 @@ const SubnavItem = ({ title, active, color, targetId }) => {
       className={`cursor-pointer duration-100 ${
         active
           ? `text-zinc-50 underline decoration-${color}`
-          : `text-zinc-600  hover:text-zinc-400`
+          : `text-zinc-600 hover:text-zinc-200`
       }`}
     >
       {title}

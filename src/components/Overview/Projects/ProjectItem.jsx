@@ -5,11 +5,11 @@ const ProjectItem = ({ project }) => {
 
   return (
     <div
-      className="flex justify-between space-x-4 py-4 px-8 border border-transparent rounded hover:border-zinc-700 hover:bg-zinc-800 hover:shadow-md cursor-pointer duration-300"
+      className="flex sm:flex-row flex-col sm:justify-between sm:items-start items-center sm:space-x-4 py-4 px-4 border border-transparent rounded hover:border-zinc-700 hover:bg-zinc-800 hover:shadow-md cursor-pointer duration-300"
       onClick={openLink}
     >
       {/* Media */}
-      <div className="max-w-72 rounded-lg overflow-hidden border border-zinc-800">
+      <div className="sm:max-w-72 sm:mb-0 mb-2 rounded-lg overflow-hidden border border-zinc-800">
         {project.image && (
           <img src={`/projects/${project.image}`} alt={project.title} />
         )}

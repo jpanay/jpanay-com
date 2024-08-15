@@ -5,6 +5,7 @@ import Header from "./Header";
 import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import Subnav from "../Subnav/Subnav";
+import SectionTitle from "./Shared/SectionTitle";
 
 const Overview = () => {
   const [activeSection, setActiveSection] = useState("");
@@ -45,19 +46,27 @@ const Overview = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center space-y-8 pb-24 px-8">
+    <div className="flex flex-col items-center space-y-12 pb-32 px-8">
       <Subnav activeSection={activeSection} />
       <Header />
       <div id="about" ref={aboutRef}>
+        <SectionTitle title="About" color="jpGreen" />
         <About />
       </div>
       <div id="experience" ref={experienceRef}>
+        <SectionTitle title="Experience" color="jpBlue" />
         <Experience />
       </div>
       <div id="projects" ref={projectsRef}>
+        <SectionTitle title="Personal Projects" color="jpBlue" />
         <Projects />
       </div>
-      <div id="skills" ref={skillsRef}>
+      <div
+        id="skills"
+        ref={skillsRef}
+        className="w-full flex flex-col items-center"
+      >
+        <SectionTitle title="Technical Proficiencies" color="jpYellow" />
         <Skills />
       </div>
     </div>

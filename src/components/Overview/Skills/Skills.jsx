@@ -167,24 +167,19 @@ const Skills = () => {
 
   return (
     <div className="w-full max-w-2xl">
-      <h2 className="text-center text-2xl font-medium underline decoration-jpYellow mb-2">
-        Technical Proficiencies
-      </h2>
       {/* Skill Search */}
       <SkillSearch skillQuery={skillQuery} setSkillQuery={setSkillQuery} />
       {/* Skill Sections and Search Results */}
       {skillQuery.length ? (
         <SkillSearchResults skills={foundSkills} />
       ) : (
-        <div className="flex flex-col">
-          {skillSections.map((section) => (
-            <SkillSection
-              key={section.name}
-              title={section.name}
-              skills={section.skills}
-            />
-          ))}
-        </div>
+        skillSections.map((section) => (
+          <SkillSection
+            key={section.name}
+            title={section.name}
+            skills={section.skills}
+          />
+        ))
       )}
     </div>
   );

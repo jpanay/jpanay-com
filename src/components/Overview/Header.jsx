@@ -4,7 +4,7 @@ import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 const OverviewHeader = () => {
   return (
     <div className="flex justify-center">
-      <div className="flex items-center space-x-8">
+      <div className="flex sm:flex-row flex-col justify-center items-center sm:space-x-8 sm:space-y-0 space-y-8">
         {/* Headshot */}
         <img
           src="headshot.jpg"

@@ -97,17 +97,13 @@ const experiences = [
     ],
   },
 ];
+
 const Experience = () => {
   return (
     <div className="max-w-2xl">
-      <h2 className="text-2xl text-center font-medium mb-4 underline decoration-jpBlue">
-        Experience
-      </h2>
-      <div className="space-y-4">
-        {experiences.map((experience) => (
-          <ExperienceItem key={experience.company} experience={experience} />
-        ))}
-      </div>
+      {experiences.map((experience) => (
+        <ExperienceItem key={experience.company} experience={experience} />
+      ))}
     </div>
   );
 };

@@ -14,7 +14,7 @@ Overview: Header (headshot, name, title, and location), about, experience, proje
 Resources: My favorite resources for getting started in development, upskilling, job hunting, and personal site inspiration
 Styling: Use Tailwind with preset for the main color scheme at jpanay.github.io and FontWwesome for icons
 
-Ideas: Customizable Jason where you can change his outfit and accessories, interactive background with three.js, certifications section, j.panay() logo with typing animation, button to expand and collapse all skills, key values/principals section, paint brush stroke on mouse move, headshot shadow interaction with mouse position, fill out resources page, stack/description of how this personal site was built, make overview section headers sticky, add descriptions for experience items, add lateprint to projects
+Ideas: Customizable Jason where you can change his outfit and accessories, interactive background with three.js, certifications section, j.panay() logo with typing animation, button to expand and collapse all skills, key values/principals section, paint brush stroke on mouse move, headshot shadow interaction with mouse position, fill out resources page, stack/description of how this personal site was built, make overview section headers sticky, add descriptions for experience items, add lateprint to projects, improve nav accessibility, improve styling best practices by moving max-w up to a higher component
 
 Color Schema:
 Green #76FA93
@@ -35,8 +35,8 @@ To Do (🔴, 🟡, ✅):
 ✅ Create an experience section in the overview page
 ✅ Create a projects section in the overview page
 ✅ Create a subnav for the overview page
-🟡 Ensure mobile friendliness and accessibility
-🟡 Final styling changes, typo checking, and clean up
-🔴 Deploy and connect to jpanay.com
-🔴 Add fading brush strokes on mouse move
-🔴 Create resources section
+✅ Ensure mobile friendliness and accessibility
+✅ Final styling changes, typo checking, and clean up
+🟡 Deploy and connect to jpanay.com
+🟡 Add fading brush strokes on mouse move
+🟡 Create resources section
