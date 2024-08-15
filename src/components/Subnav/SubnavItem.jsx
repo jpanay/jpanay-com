@@ -1,4 +1,4 @@
-const SubnavItem = ({ title, active, color, targetId }) => {
+const SubnavItem = ({ title, active, targetId, customStyle }) => {
   const handleClick = () => {
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
@@ -16,7 +16,7 @@ const SubnavItem = ({ title, active, color, targetId }) => {
       onClick={handleClick}
       className={`cursor-pointer duration-100 ${
         active
-          ? `text-zinc-50 underline decoration-${color}`
+          ? `text-zinc-50 underline ${customStyle}`
           : `text-zinc-600 hover:text-zinc-200`
       }`}
     >

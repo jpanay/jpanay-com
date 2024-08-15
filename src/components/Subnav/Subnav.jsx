@@ -7,25 +7,25 @@ const Subnav = ({ activeSection }) => {
         <SubnavItem
           title="About"
           active={activeSection === "about"}
-          color={"jpGreen"}
+          customStyle={"decoration-jpGreen"}
           targetId="about"
         />
         <SubnavItem
           title="Experience"
           active={activeSection === "experience"}
-          color={"jpBlue"}
+          customStyle={"decoration-jpBlue"}
           targetId="experience"
         />
         <SubnavItem
           title="Projects"
           active={activeSection === "projects"}
-          color={"jpBlue"}
+          customStyle={"decoration-jpBlue"}
           targetId="projects"
         />
         <SubnavItem
           title="Technical Proficiencies"
           active={activeSection === "skills"}
-          color={"jpYellow"}
+          customStyle={"decoration-jpYellow"}
           targetId="skills"
         />
       </div>

@@ -50,15 +50,15 @@ const Overview = () => {
       <Subnav activeSection={activeSection} />
       <Header />
       <div id="about" ref={aboutRef}>
-        <SectionTitle title="About" color="jpGreen" />
+        <SectionTitle title="About" customStyle="decoration-jpGreen" />
         <About />
       </div>
       <div id="experience" ref={experienceRef}>
-        <SectionTitle title="Experience" color="jpBlue" />
+        <SectionTitle title="Experience" customStyle="decoration-jpBlue" />
         <Experience />
       </div>
       <div id="projects" ref={projectsRef}>
-        <SectionTitle title="Projects" color="jpBlue" />
+        <SectionTitle title="Projects" customStyle="decoration-jpBlue" />
         <Projects />
       </div>
       <div
@@ -66,7 +66,10 @@ const Overview = () => {
         ref={skillsRef}
         className="w-full flex flex-col items-center"
       >
-        <SectionTitle title="Technical Proficiencies" color="jpYellow" />
+        <SectionTitle
+          title="Technical Proficiencies"
+          customStyle="decoration-jpYellow"
+        />
         <Skills />
       </div>
     </div>
