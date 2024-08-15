@@ -14,7 +14,7 @@ Overview: Header (headshot, name, title, and location), about, experience, proje
 Resources: My favorite resources for getting started in development, upskilling, job hunting, and personal site inspiration
 Styling: Use Tailwind with preset for the main color scheme at jpanay.github.io and FontWwesome for icons
 
-Ideas: Customizable Jason where you can change his outfit and accessories, interactive background with three.js, certifications section, j.panay() logo with typing animation, key values/principals section, paint brush stroke on mouse move, headshot shadow interaction with mouse position, fill out resources page, stack/description of how this personal site was built, make overview section headers sticky, add descriptions for experience items, add lateprint to projects, improve nav accessibility, improve styling best practices by moving max-w up to a higher component, fix subnav not highlighting technical proficiencies after navigating to that section while it's expanded.
+Ideas: Customizable Jason where you can change his outfit and accessories, interactive background with three.js, certifications section, key values/principals section, fill out resources page, stack/description of how this personal site was built, make overview section headers sticky, add descriptions for experience items, add lateprint to projects, improve nav accessibility, improve styling best practices by moving max-w up to a higher component, fix subnav not highlighting technical proficiencies after navigating to that section while it's expanded.
 
 Color Schema:
 Green #76FA93
@@ -38,6 +38,8 @@ To Do (🔴, 🟡, ✅):
 ✅ Ensure mobile friendliness and accessibility
 ✅ Final styling changes, typo checking, and clean up
 ✅ Add buttons to expand and collapse all skills
-🟡 Deploy and connect to jpanay.com
+✅ Deploy and connect to jpanay.com
+✅ Animate headshot drop shadow on mouse move or scroll for mobile
+🟡 Animate nav logos with typing sequence
 🟡 Add fading brush strokes on mouse move
-🟡 Create resources section
+🔴 Create resources section

@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import About from "./About";
 import Experience from "./Experience/Experience";
-import Header from "./Header";
+import Header from "./Header/Header";
 import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import Subnav from "../Subnav/Subnav";
