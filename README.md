@@ -34,9 +34,9 @@ To Do (🔴, 🟡, ✅):
 ✅ Create an about section in the overview page
 ✅ Create an experience section in the overview page
 ✅ Create a projects section in the overview page
-🟡 Create a subnav for the overview page
+✅ Create a subnav for the overview page
 🟡 Ensure mobile friendliness and accessibility
-🔴 Final styling changes, typo checking, and clean up
+🟡 Final styling changes, typo checking, and clean up
 🔴 Deploy and connect to jpanay.com
 🔴 Add fading brush strokes on mouse move
 🔴 Create resources section
