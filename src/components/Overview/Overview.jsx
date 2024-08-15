@@ -58,7 +58,7 @@ const Overview = () => {
         <Experience />
       </div>
       <div id="projects" ref={projectsRef}>
-        <SectionTitle title="Personal Projects" color="jpBlue" />
+        <SectionTitle title="Projects" color="jpBlue" />
         <Projects />
       </div>
       <div

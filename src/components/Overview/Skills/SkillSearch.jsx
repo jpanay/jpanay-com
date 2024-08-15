@@ -25,7 +25,7 @@ const SkillSearch = ({ skillQuery, setSkillQuery }) => {
           <button className="flex items-center" onClick={clearSearch}>
             <FontAwesomeIcon
               icon={faDeleteLeft}
-              className="hover:text-red-400"
+              className="hover:text-red-300"
             />
           </button>
         ) : null}

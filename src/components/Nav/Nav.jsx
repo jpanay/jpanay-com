@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import NavItem from "./NavItem";
+import InteractiveLogo from "./InteractiveLogo";
 
 const Nav = () => {
   return (
@@ -9,8 +10,9 @@ const Nav = () => {
       {/* Logo */}
       <div className="flex-1 flex items-center">
         <Link to="/">
-          <img src="jp.svg" alt="logo" className="h-4 sm:hidden block" />
-          <img src="jpanay.svg" alt="logo" className="h-4 sm:block hidden" />
+          <InteractiveLogo />
+          {/* <img src="jp.svg" alt="logo" className="h-4 sm:hidden block" /> */}
+          {/* <img src="jpanay.svg" alt="logo" className="h-4 sm:block hidden" /> */}
         </Link>
       </div>
       {/* Nav Items */}

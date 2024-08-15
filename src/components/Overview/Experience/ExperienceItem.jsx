@@ -26,7 +26,7 @@ const ExperienceItem = ({ experience }) => {
               <img
                 src={`/experiences/${experience.logo}`}
                 alt={`${experience.company} logo`}
-                className="object-fit max-h-4 min-w-4"
+                className="object-fit max-h-4"
               />
             </div>
           </div>
