@@ -2,6 +2,7 @@ const ExperienceItem = ({ experience }) => {
   const openLink = () => {
     window.open(experience.link, "_blank");
   };
+
   return (
     <div
       className="flex items-start space-x-4 py-4 px-8 border border-transparent rounded hover:border-zinc-700 hover:bg-zinc-800 hover:shadow-md cursor-pointer duration-300"

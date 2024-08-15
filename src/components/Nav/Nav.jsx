@@ -9,7 +9,8 @@ const Nav = () => {
       {/* Logo */}
       <div className="flex-1 flex items-center">
         <Link to="/">
-          <img src="jp.svg" alt="logo" className="h-4" />
+          <img src="jp.svg" alt="logo" className="h-4 sm:hidden block" />
+          <img src="jpanay.svg" alt="logo" className="h-4 sm:block hidden" />
         </Link>
       </div>
       {/* Nav Items */}
