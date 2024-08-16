@@ -41,6 +41,75 @@ const jobSearchTools = {
   ],
 };
 
+const interviewPrep = {
+  title: "Interview Prep",
+  description: "",
+  items: [
+    {
+      name: "InterviewGuide",
+      subheader: "Interview Guide",
+      image: "/interview-prep/interviewguide.webp",
+      link: "https://interviewguide.dev/",
+      favorite: true,
+    },
+    {
+      name: "AlgoExpert",
+      subheader: "Full Stack Interview Prep",
+      image: "/interview-prep/algoexpert.svg",
+      link: "https://www.algoexpert.io/",
+      favorite: true,
+    },
+    {
+      name: "LeetCode",
+      subheader: "Algorithms Practice",
+      image: "/interview-prep/leetcode.png",
+      link: "https://leetcode.com/problemset/",
+    },
+    {
+      name: "NeetCode",
+      subheader: "Algorithms Practice",
+      image: "/interview-prep/neetcode.png",
+      link: "https://neetcode.io/",
+    },
+    {
+      name: "HackerRank",
+      subheader: "Algorithms Practice",
+      image: "/interview-prep/hackerrank.png",
+      link: "https://www.hackerrank.com/dashboard",
+    },
+    {
+      name: "JavaScript Prep",
+      subheader: "Algorithms Course",
+      image: "/interview-prep/udemy.svg",
+      link: "https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/",
+    },
+    {
+      name: "Python Prep",
+      subheader: "Algorithms Course",
+      image: "/interview-prep/udemy.svg",
+      link: "https://www.udemy.com/course/data-structures-algorithms-python/?couponCode=LEARNNOWPLANS",
+    },
+    {
+      name: "Formation Dev",
+      subheader: "Mentorship Program",
+      image: "/interview-prep/formation.svg",
+      link: "https://formation.dev/",
+    },
+    {
+      name: "Interview Kickstart",
+      subheader: "Mentorship Program",
+      image: "/interview-prep/interviewkickstart.png",
+      link: "https://www.interviewkickstart.com/",
+    },
+    {
+      name: "Pathrise",
+      subheader: "Mentorship Program",
+      image: "/interview-prep/pathrise.svg",
+      link: "https://www.pathrise.com/",
+    },
+  ],
+};
+
 const jobBoards = {
   title: "Job Boards",
   description: "",
@@ -59,9 +128,10 @@ const jobBoards = {
       favorite: true,
     },
     {
-      name: "Otto",
-      image: "/job-boards/otto.svg",
-      link: "https://www.otto.com/",
+      name: "Otta",
+      image: "/job-boards/otta.svg",
+      link: "https://www.otta.com/",
+      favorite: true,
     },
     {
       name: "Dice",
@@ -142,66 +212,6 @@ const jobBoards = {
       name: "Awesome Job Boards",
       image: "/job-boards/awesomejobboards.svg",
       link: "https://github.com/emredurukn/awesome-job-boards",
-    },
-  ],
-};
-
-const interviewPrep = {
-  title: "Interview Prep",
-  description: "",
-  items: [
-    {
-      name: "InterviewGuide",
-      image: "/interview-prep/interviewguide.webp",
-      link: "https://www.jobscan.co/",
-      favorite: true,
-    },
-    {
-      name: "LeetCode",
-      image: "/interview-prep/leetcode.png",
-      link: "https://leetcode.com/",
-    },
-    {
-      name: "NeetCode",
-      image: "/interview-prep/neetcode.png",
-      link: "https://neetcode.io/",
-      favorite: true,
-    },
-    {
-      name: "HackerRank",
-      image: "/interview-prep/hackerrank.png",
-      link: "https://www.hackerrank.com/",
-    },
-    {
-      name: "AlgoExpert",
-      image: "/interview-prep/algoexpert.svg",
-      link: "https://www.algoexpert.io/",
-      favorite: true,
-    },
-    {
-      name: "JavaScript Prep",
-      image: "/interview-prep/udemy.svg",
-      link: "https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/",
-    },
-    {
-      name: "Python Prep",
-      image: "/interview-prep/udemy.svg",
-      link: "https://www.udemy.com/course/data-structures-algorithms-python/?couponCode=LEARNNOWPLANS",
-    },
-    {
-      name: "Formation Dev",
-      image: "/interview-prep/formation.svg",
-      link: "https://formation.dev/",
-    },
-    {
-      name: "Interview Kickstart",
-      image: "/interview-prep/interviewkickstart.png",
-      link: "https://www.interviewkickstart.com/",
-    },
-    {
-      name: "Pathrise",
-      image: "/interview-prep/pathrise.svg",
-      link: "https://www.pathrise.com/",
     },
   ],
 };
