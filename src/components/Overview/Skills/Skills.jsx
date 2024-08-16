@@ -156,7 +156,7 @@ const skillSections = [
 const Skills = () => {
   const [skillQuery, setSkillQuery] = useState("");
   const [foundSkills, setFoundSkills] = useState([]);
-  const [globalExpanded, setGlobalExpanded] = useState(false);
+  const [globalExpanded, setGlobalExpanded] = useState(null);
 
   useEffect(() => {
     const query = skillQuery.toLowerCase();
@@ -196,6 +196,7 @@ const Skills = () => {
             title={section.name}
             skills={section.skills}
             globalExpanded={globalExpanded}
+            setGlobalExpanded={setGlobalExpanded}
           />
         ))
       )}

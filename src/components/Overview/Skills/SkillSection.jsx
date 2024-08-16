@@ -3,13 +3,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import SkillItem from "./SkillItem";
 
-const SkillSection = ({ title, skills, globalExpanded }) => {
+const SkillSection = ({ title, skills, globalExpanded, setGlobalExpanded }) => {
   const [expanded, setExpanded] = useState(false);
 
-  const toggleExpanded = () => setExpanded(!expanded);
+  const toggleExpanded = () => {
+    setExpanded(!expanded);
+    setGlobalExpanded(null);
+  };
 
   useEffect(() => {
-    setExpanded(globalExpanded);
+    if (globalExpanded !== null) {
+      setExpanded(globalExpanded);
+    }
   }, [globalExpanded]);
 
   return (

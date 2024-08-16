@@ -9,7 +9,7 @@ const About = () => {
         </p>
         <p>
           When I'm not coding or falling down the YouTube rabbit hole I like to
-          spend my time rock climbing, exploring the city, and making new
+          spend time rock climbing, exploring the city, and making new
           connections.
         </p>
       </div>
