@@ -8,7 +8,7 @@ const About = () => {
           development for various start-ups and companies throughout the US.
         </p>
         <p>
-          When I'm not coding or falling down a YouTube rabbit hole I like to
+          When I'm not coding or falling down the YouTube rabbit hole I like to
           spend my time rock climbing, exploring the city, and making new
           connections.
         </p>
