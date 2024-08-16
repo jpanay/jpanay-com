@@ -23,3 +23,7 @@
   filter: drop-shadow(-4px -2px 2px #76fa93) drop-shadow(0px 4px 2px #76c1ff)
     drop-shadow(4px -2px 2px #fffd7e);
 }
+
+.favorite-resource-drop-shadow {
+  filter: drop-shadow(0px 1px 4px #fffd7e);
+}
