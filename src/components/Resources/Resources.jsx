@@ -220,19 +220,21 @@ const Resources = () => {
             A place for my favorite software development job searching resources
           </p>
         </div>
-        {/* Header Images */}
+        {/* Header Building In Progress GIFs and Text */}
         <p className="text-zinc-400 text-sm pb-2">Building in progress...</p>
-        <div className="flex justify-center rounded-full overflow-hidden custom-drop-shadow">
-          <img
-            src="/resources/loading/loading1.gif"
-            alt="Work In Progress"
-            className="object-contain h-24"
-          />
-          <img
-            src="/resources/loading/loading2.gif"
-            alt="Work In Progress"
-            className="object-contain h-24"
-          />
+        <div className="custom-drop-shadow">
+          <div className="flex justify-center rounded-full overflow-hidden">
+            <img
+              src="/resources/loading/loading1.gif"
+              alt="Work In Progress"
+              className="object-contain h-24"
+            />
+            <img
+              src="/resources/loading/loading2.gif"
+              alt="Work In Progress"
+              className="object-contain h-24"
+            />
+          </div>
         </div>
       </div>
       {/* Resource Sections */}
