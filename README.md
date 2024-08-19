@@ -14,7 +14,7 @@ Overview: Header (headshot, name, title, and location), about, experience, proje
 Resources: My favorite resources for getting started in development, upskilling, job hunting, and personal site inspiration
 Styling: Use Tailwind with preset for the main color scheme at jpanay.github.io and FontWwesome for icons
 
-Ideas: Customizable Jason where you can change his outfit and accessories, interactive background with three.js, certifications section, key values/principals section, stack/description of how this personal site was built, make overview section headers sticky, add descriptions for experience items, add stack for project items, improve nav accessibility, improve styling best practices by moving max-w up to a higher component, fix subnav not highlighting technical proficiencies after navigating to that section while it's expanded, add more details to resource section, go to top of page on route change, don't autoplay space view video on mobile.
+Ideas: Customizable Jason where you can change his outfit and accessories, interactive background with three.js, certifications section, key values/principals section, stack/description of how this personal site was built, make overview section headers sticky, add descriptions for experience items, add stack for project items, improve nav accessibility, improve styling best practices by moving max-w up to a higher component, fix subnav not highlighting technical proficiencies after navigating to that section while it's expanded, add more details to resource section, go to top of page on route change, don't autoplay space view video on mobile, add recruiting agencies to resources, add company networking and research section to resources (linkedin, glassdoor, levels.fyi), add mouse trailing fading brush stroke effect, mount technical proficiencies section with first item expanded.
 
 Color Schema:
 Green #76FA93
@@ -42,4 +42,4 @@ To Do (🔴, 🟡, ✅):
 ✅ Animate headshot drop shadow on mouse move or scroll for mobile
 ✅ Animate nav logos with typing sequence
 ✅ Create resources section
-🔴 Add mouse trailing fading brush stroke effect
+🔴 Fix 404 when going directly to /resources

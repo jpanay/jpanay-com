@@ -1,7 +1,7 @@
 import ResourceSection from "./ResourceSection";
 
 const jobSearchTools = {
-  title: "Job Search Tools",
+  title: "General Tools",
   description: "",
   items: [
     {
