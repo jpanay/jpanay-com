@@ -13,16 +13,28 @@ const jobSearchTools = {
       favorite: true,
     },
     {
-      name: "ResyMatch",
+      name: "Teal",
+      subheader: "Job Search Tool Suite",
+      image: "/job-search-tools/teal.svg",
+      link: "https://www.tealhq.com/",
+    },
+    {
+      name: "Resume Worded",
       subheader: "Resume Optimization",
-      image: "/job-search-tools/resymatch.png",
-      link: "https://resymatch.io/",
+      image: "/job-search-tools/resumeworded.png",
+      link: "https://resumeworded.com/",
     },
     {
       name: "Jobscan",
       subheader: "Resume Optimization",
       image: "/job-search-tools/jobscan.svg",
       link: "https://www.jobscan.co/",
+    },
+    {
+      name: "ResyMatch",
+      subheader: "Resume Optimization",
+      image: "/job-search-tools/resymatch.png",
+      link: "https://resymatch.io/",
     },
     {
       name: "ChatGPT",
