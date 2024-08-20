@@ -31,7 +31,7 @@ const experiences = [
   {
     company: "Hideaway",
     logo: "hideaway.png",
-    position: "Mobile Developer (Contract)",
+    position: "Mobile Developer (Freelance)",
     category: "Restaurant Mobile App",
     link: "https://apps.apple.com/us/app/hideaway-happy-hours-near-me/id6444686101",
     startDate: "2023",
