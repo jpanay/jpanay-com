@@ -6,7 +6,7 @@ const jobSearchTools = {
   items: [
     {
       name: "Huntr",
-      subheader: "Job Application Tracker",
+      subheader: "Job Application Tools",
       description: "",
       image: "/job-search-tools/huntr.png",
       link: "https://huntr.co/",
@@ -14,7 +14,7 @@ const jobSearchTools = {
     },
     {
       name: "Teal",
-      subheader: "Job Search Tool Suite",
+      subheader: "Job Application Tools",
       image: "/job-search-tools/teal.svg",
       link: "https://www.tealhq.com/",
     },
@@ -23,12 +23,6 @@ const jobSearchTools = {
       subheader: "Resume Optimization",
       image: "/job-search-tools/resumeworded.png",
       link: "https://resumeworded.com/",
-    },
-    {
-      name: "Jobscan",
-      subheader: "Resume Optimization",
-      image: "/job-search-tools/jobscan.svg",
-      link: "https://www.jobscan.co/",
     },
     {
       name: "ResyMatch",
