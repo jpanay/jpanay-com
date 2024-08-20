@@ -147,7 +147,7 @@ const skillSections = [
       { name: "VS Code", yoe: 5, level: 5 },
       { name: "GitHub Copilot", yoe: 1, level: 2 },
       { name: "ChatGPT", yoe: 2, level: 3 },
-      { name: "XCode", yoe: 2, level: 3 },
+      { name: "Xcode", yoe: 2, level: 3 },
       { name: "Figma", yoe: 2, level: 3 },
     ],
   },

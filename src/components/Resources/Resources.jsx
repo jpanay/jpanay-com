@@ -6,7 +6,7 @@ const jobSearchTools = {
   items: [
     {
       name: "Huntr",
-      subheader: "Job Application Tools",
+      subheader: "Job Application Suite",
       description: "",
       image: "/job-search-tools/huntr.png",
       link: "https://huntr.co/",
@@ -14,7 +14,7 @@ const jobSearchTools = {
     },
     {
       name: "Teal",
-      subheader: "Job Application Tools",
+      subheader: "Job Application Suite",
       image: "/job-search-tools/teal.svg",
       link: "https://www.tealhq.com/",
     },
