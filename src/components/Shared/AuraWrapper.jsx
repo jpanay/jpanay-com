@@ -97,7 +97,7 @@ const AuraWrapper = ({ children }) => {
     let bShadow = "drop-shadow(0px 4px 2px #76c1ff)";
     if (bActive && !maxDistance) {
       const bx = Math.max(Math.min(4, mx), -4);
-      const by = Math.max(Math.min(8, my), 4);
+      const by = Math.max(Math.min(10, my), 4);
       bShadow = `drop-shadow(${bx}px ${by}px ${blurModifier}px #76c1ff)`;
     }
 
