@@ -81,7 +81,7 @@ const experiences = [
   {
     company: "Satellite.im",
     logo: "satellite.webp",
-    position: "Junior Software Engineer",
+    position: "Full Stack Software Engineer",
     category: "Communications Platform",
     link: "https://satellite.im/",
     startDate: "2021",
