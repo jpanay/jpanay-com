@@ -78,20 +78,20 @@ const AuraWrapper = ({ children }) => {
     const yActive = yActiveSet.has(section);
     const bActive = bActiveSet.has(section);
     const totalDistance = Math.abs(mx) + Math.abs(my);
-    const blurModifier = Math.max(Math.min(8, totalDistance / 8), 0);
+    const blurModifier = Math.max(Math.min(8, totalDistance / 8), 2);
     const maxDistance = totalDistance > 72;
 
     // Determine the drop shadow based on active sections
     let gShadow = "drop-shadow(-4px -2px 2px #76fa93)";
     if (gActive && !maxDistance) {
       const gx = Math.max(Math.min(-4, mx), -12);
-      const gy = Math.max(Math.min(-2, my), -4);
+      const gy = Math.max(Math.min(6, my), -4);
       gShadow = `drop-shadow(${gx}px ${gy}px ${blurModifier}px #76fa93)`;
     }
     let yShadow = "drop-shadow(4px -2px 2px #fffd7e)";
     if (yActive && !maxDistance) {
       const yx = Math.max(Math.min(12, mx), 4);
-      const yy = Math.max(Math.min(-2, my), -12);
+      const yy = Math.max(Math.min(6, my), -12);
       yShadow = `drop-shadow(${yx}px ${yy}px ${blurModifier}px #fffd7e)`;
     }
     let bShadow = "drop-shadow(0px 4px 2px #76c1ff)";
