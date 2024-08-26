@@ -42,4 +42,5 @@ To Do (🔴, 🟡, ✅):
 ✅ Animate headshot drop shadow on mouse move or scroll for mobile
 ✅ Animate nav logos with typing sequence
 ✅ Create resources section
-🔴 Fix 404 when going directly to /resources
+✅ Fix 404 when going directly to /resources
+✅ Add redirect route for resume
