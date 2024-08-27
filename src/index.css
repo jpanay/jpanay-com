@@ -24,6 +24,10 @@
     drop-shadow(4px -2px 2px #fffd7e);
 }
 
-.favorite-resource-drop-shadow {
-  filter: drop-shadow(0px 1px 4px #fffd7e);
+.resource-drop-shadow-gold {
+  filter: drop-shadow(0px 0px 3px #fffd7e);
+}
+
+.resource-drop-shadow-silver {
+  filter: drop-shadow(0px 0px 2px #909090);
 }

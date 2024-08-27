@@ -1,10 +1,23 @@
-import { faTrophy } from "@fortawesome/free-solid-svg-icons";
+import { faTrophy, faMedal, faAward } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ResourceItem = ({ item }) => {
   const openLink = () => {
     window.open(item.link, "_blank");
   };
+
+  const rankMapping = {
+    gold: { icon: faTrophy, class: "text-amber-300 resource-drop-shadow-gold" },
+    silver: {
+      icon: faMedal,
+      class: "text-slate-300 resource-drop-shadow-silver",
+    },
+    bronze: {
+      icon: faAward,
+      class: "text-amber-900",
+    },
+  };
+  const rank = rankMapping[item.rank];
 
   return (
     <div
@@ -21,10 +34,10 @@ const ResourceItem = ({ item }) => {
       </div>
       {/* Contents */}
       <div className="flex-1 relative">
-        {item.favorite && (
+        {rank && (
           <FontAwesomeIcon
-            icon={faTrophy}
-            className="absolute right-1 top-0.5 text-sm text-amber-300 favorite-resource-drop-shadow"
+            icon={rank.icon}
+            className={`absolute right-1 top-0.5 text-sm ${rank.class}`}
           />
         )}
         <h3 className="font-medium whitespace-nowrap truncate max-w-36">
