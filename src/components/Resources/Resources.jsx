@@ -87,6 +87,12 @@ const interviewPrep = {
       link: "https://www.hackerrank.com/dashboard",
     },
     {
+      name: "CoderByte",
+      subheader: "Algorithms Practice",
+      image: "/interview-prep/coderbyte.png",
+      link: "https://coderbyte.com/",
+    },
+    {
       name: "JavaScript Prep",
       subheader: "Algorithms Course",
       image: "/interview-prep/udemy.svg",
