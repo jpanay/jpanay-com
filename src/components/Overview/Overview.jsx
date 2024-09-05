@@ -54,11 +54,11 @@ const Overview = () => {
         <About />
       </div>
       <div id="experience" ref={experienceRef}>
-        <SectionTitle title="Experience" customStyle="decoration-jpBlue" />
+        <SectionTitle title="Experience" customStyle="decoration-jpYellow" />
         <Experience />
       </div>
       <div id="projects" ref={projectsRef}>
-        <SectionTitle title="Projects" customStyle="decoration-jpBlue" />
+        <SectionTitle title="Projects" customStyle="decoration-jpYellow" />
         <Projects />
       </div>
       <div
@@ -68,7 +68,7 @@ const Overview = () => {
       >
         <SectionTitle
           title="Technical Proficiencies"
-          customStyle="decoration-jpYellow"
+          customStyle="decoration-jpBlue"
         />
         <Skills />
       </div>

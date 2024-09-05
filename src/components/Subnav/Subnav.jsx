@@ -13,19 +13,19 @@ const Subnav = ({ activeSection }) => {
         <SubnavItem
           title="Experience"
           active={activeSection === "experience"}
-          customStyle={"decoration-jpBlue"}
+          customStyle={"decoration-jpYellow"}
           targetId="experience"
         />
         <SubnavItem
           title="Projects"
           active={activeSection === "projects"}
-          customStyle={"decoration-jpBlue"}
+          customStyle={"decoration-jpYellow"}
           targetId="projects"
         />
         <SubnavItem
           title="Technical Proficiencies"
           active={activeSection === "skills"}
-          customStyle={"decoration-jpYellow"}
+          customStyle={"decoration-jpBlue"}
           targetId="skills"
         />
       </div>
