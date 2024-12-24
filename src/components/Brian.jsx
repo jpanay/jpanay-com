@@ -6,7 +6,7 @@ const Brian = () => {
   useEffect(() => {
     const calculateTimeRemaining = () => {
       const now = new Date();
-      const easternTimeOffset = new Date().getTimezoneOffset() + 300; // Eastern Time is UTC-5
+      const easternTimeOffset = new Date().getTimezoneOffset() - 300; // Eastern Time is UTC-5
       const easternNow = new Date(
         now.getTime() + easternTimeOffset * 60 * 1000
       );
