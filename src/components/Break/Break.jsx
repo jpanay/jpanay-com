@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import cocktails from "./cocktails";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faX } from "@fortawesome/free-solid-svg-icons";
@@ -65,18 +65,45 @@ const Break = () => {
 
 const Cocktails = ({ cocktails }) => {
   const [expanded, setExpanded] = useState(null);
+  const refs = useRef({});
+
+  useEffect(() => {
+    if (expanded) {
+      setTimeout(() => {
+        const element = refs.current[expanded];
+        if (element) {
+          const offset = 64; // Offset in pixels
+          const topPosition =
+            element.getBoundingClientRect().top + window.scrollY - offset;
+
+          window.scrollTo({
+            top: topPosition,
+            behavior: "smooth",
+          });
+        }
+      }, 200);
+    } else {
+      window.scrollTo({
+        top: true,
+        behavior: "smooth",
+      });
+    }
+  }, [expanded]);
 
   return (
     <div>
       {/* Cocktails */}
-      <div className="flex flex-wrap justify-center sm:px-32 px-2">
+      <div className="flex flex-wrap justify-center sm:px-32 px-2 pb-[700px]">
         {cocktails.map((cocktail) => (
           // Cocktail
           <div
             key={cocktail.name}
             className="self-start py-2 px-2 border rounded border-zinc-700 shadow-md shadow-zinc-950 sm:m-2 m-1 bg-zinc-900 sm:max-w-72 cursor-pointer"
+            ref={(el) => (refs.current[cocktail.name] = el)} // Assign ref
             onClick={() =>
-              setExpanded(expanded === cocktail.name ? null : cocktail.name)
+              expanded !== cocktail.name
+                ? setExpanded(cocktail.name)
+                : setExpanded(null)
             }
           >
             {/* Name */}
@@ -87,7 +114,9 @@ const Cocktails = ({ cocktails }) => {
               {cocktail.tags?.includes("popular") && (
                 <img src="/break/star.webp" className="h-4" />
               )}
-              <h3 className="font-medium border-zinc-700">{cocktail.name}</h3>
+              <h3 className="font-medium border-zinc-700 whitespace-nowrap">
+                {cocktail.name}
+              </h3>
             </div>
             {/* Body */}
             {expanded === cocktail.name && (
