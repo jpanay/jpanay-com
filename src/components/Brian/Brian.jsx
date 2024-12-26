@@ -38,16 +38,25 @@ const Brian = () => {
 
   return (
     <div>
-      <img src="/snowy.jpg" className="w-screen h-screen blur absolute z-0" />
+      <img
+        src="/brian/snowy.jpg"
+        className="w-screen h-screen blur absolute z-0"
+      />
       <div className="h-screen w-screen absolute z-20 flex flex-col items-center pt-12 px-8">
         <div className="flex flex-col items-center p-8 bg-zinc-800 rounded shadow-xl">
           <h1 className="text-xl font-bold text-center">
             Hi Brian!!! Merry Christmas :D
           </h1>
-          <img src="/gift.gif" className="h-36 w-36" />
+          <img src="/brian/gift.gif" className="h-36 w-36" />
           <div className="flex flex-col items-center pt-2">
-            <p className="font-medium">Gift Opens In:</p>
-            <p className="text-lg mt-2 text-center">{timeRemaining}</p>
+            <a
+              className="cursor-pointer border-2 rounded py-2 px-8 mt-4 font-medium hover:bg-red-500 hover:border-emerald-500"
+              href="/healthdept"
+            >
+              Open Gift
+            </a>
+            {/* <p className="font-medium">Gift Opens In:</p>
+            <p className="text-lg mt-2 text-center">{timeRemaining}</p> */}
           </div>
         </div>
       </div>

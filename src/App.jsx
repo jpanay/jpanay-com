@@ -3,7 +3,8 @@ import Nav from "./components/Nav/Nav";
 import Overview from "./components/Overview/Overview";
 import Resources from "./components/Resources/Resources";
 import ResumeRedirect from "./components/ResumeRedirect";
-import Brian from "./components/Brian";
+import Brian from "./components/Brian/Brian";
+import HealthDept from "./components/Brian/HealthDept";
 import Break from "./components/Break/Break";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/resources" element={<Resources />} />
         <Route path="/resume" element={<ResumeRedirect />} />
         <Route path="/brian" element={<Brian />} />
+        <Route path="/healthdept" element={<HealthDept />} />
         <Route path="/break" element={<Break />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
