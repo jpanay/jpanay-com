@@ -56,7 +56,7 @@ const About = ({ setPage }) => {
           <h2 className="text-3xl font-medium">Want to learn more?</h2>
           <p className="max-w-lg">Explore our offerings or get in touch!</p>
         </div>
-        <div className="sm:space-x-4 space-y-4">
+        <div className="sm:space-x-4 sm:space-y-0 space-y-4 mt-4">
           <button className={buttonClass} onClick={() => setPage("services")}>
             Explore Services
           </button>
