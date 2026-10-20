@@ -30,7 +30,8 @@ const projects = [
     subheader: "Google Chrome Extension",
     description:
       "Jumprope Converter allows students using the Jumprope grading platform to see their grades as a standard percentage instead of it's confusing non-linear 1-7 scale.",
-    link: "https://chromewebstore.google.com/detail/jumprope-converter/opledhcnlefammhognofkojollkipgho",
+    link: "https://web.archive.org/web/20250719094859/https://chromewebstore.google.com/detail/jumprope-converter/opledhcnlefammhognofkojollkipgho",
+    // link: "https://chromewebstore.google.com/detail/jumprope-converter/opledhcnlefammhognofkojollkipgho",
     image: "jumprope.png",
   },
 ];

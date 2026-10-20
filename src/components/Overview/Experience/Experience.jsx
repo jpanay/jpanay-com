@@ -1,10 +1,35 @@
 import ExperienceItem from "./ExperienceItem";
 const experiences = [
   {
+    company: "Libertas",
+    logo: "libertas.png",
+    position: "Full Stack Software Engineer",
+    category: "Financial Services",
+    link: "https://libertasfunding.com/",
+    startDate: "2025",
+    endDate: "2026",
+    technologies: [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "React",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Redis",
+      "Amazon Web Services",
+      "Google Cloud Platform",
+      "Terraform",
+      "Docker",
+      "HubSpot API",
+      "Secure File Transfer Protocol (SFTP)"
+    ],
+  },
+  {
     company: "The News Movement",
     logo: "tnm.svg",
     position: "Full Stack Software Engineer",
-    category: "News & Media Technology",
+    category: "News & Media",
     link: "https://www.thenewsmovement.com/",
     startDate: "2023",
     endDate: "2024",
@@ -33,7 +58,8 @@ const experiences = [
     logo: "hideaway.png",
     position: "Mobile Developer (Freelance)",
     category: "Restaurant Mobile App",
-    link: "https://apps.apple.com/us/app/hideaway-happy-hours-near-me/id6444686101",
+    link: "https://www.joinhideaway.com/",
+    // link: "https://apps.apple.com/us/app/hideaway-happy-hours-near-me/id6444686101",
     startDate: "2023",
     endDate: "2024",
     technologies: [
@@ -83,7 +109,8 @@ const experiences = [
     logo: "satellite.webp",
     position: "Full Stack Software Engineer",
     category: "Communications Platform",
-    link: "https://satellite.im/",
+    link: "https://www.linkedin.com/company/satellite-im/home/",
+    // link: "https://satellite.im/",
     startDate: "2021",
     endDate: "2022",
     technologies: [

@@ -11,14 +11,12 @@ const Nav = () => {
       <div className="flex-1 flex items-center">
         <Link to="/">
           <InteractiveLogo />
-          {/* <img src="jp.svg" alt="logo" className="h-4 sm:hidden block" /> */}
-          {/* <img src="jpanay.svg" alt="logo" className="h-4 sm:block hidden" /> */}
         </Link>
       </div>
       {/* Nav Items */}
       <div className="flex space-x-6">
-        <NavItem name="Overview" route="/" />
-        <NavItem name="Resources" route="/resources" />
+        {/* <NavItem name="Overview" route="/" />
+        <NavItem name="Resources" route="/resources" /> */}
       </div>
       {/* Links (Github and Linkedin) */}
       <div className="flex-1 flex justify-end space-x-4">
