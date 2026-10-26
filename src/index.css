@@ -20,8 +20,7 @@
 }
 
 .custom-drop-shadow {
-  filter: drop-shadow(-4px -2px 2px #76fa93) drop-shadow(0px 4px 2px #76c1ff)
-    drop-shadow(4px -2px 2px #fffd7e);
+  filter: drop-shadow(-4px -2px 2px #76fa93) drop-shadow(0px 4px 2px #76c1ff) drop-shadow(4px -2px 2px #fffd7e);
 }
 
 .resource-drop-shadow-gold {
@@ -30,4 +29,38 @@
 
 .resource-drop-shadow-silver {
   filter: drop-shadow(0px 0px 2px #909090);
+}
+
+.cursor-trail-digit {
+  position: absolute;
+  font-family: "Courier New", monospace;
+  font-weight: 700;
+  transform: translate(-50%, -50%) rotate(var(--rotate));
+  animation: cursor-trail-fade 900ms ease-out forwards,
+    cursor-trail-sparkle 1800ms ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+@keyframes cursor-trail-fade {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(var(--rotate)) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(calc(-50% + var(--drift-x)), calc(-50% + var(--drift-y))) rotate(var(--rotate)) scale(0.4);
+  }
+}
+
+@keyframes cursor-trail-sparkle {
+
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(1.3);
+  }
 }

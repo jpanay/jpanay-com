@@ -6,10 +6,14 @@ import ResumeRedirect from "./components/ResumeRedirect";
 import Brian from "./components/Brian/Brian";
 import HealthDept from "./components/Brian/HealthDept";
 import Break from "./components/Break/Break";
+import CursorTrail from "./components/Shared/CursorTrail";
+import ScrollTrail from "./components/Shared/ScrollTrail";
 
 const App = () => {
   return (
     <div className="text-zinc-50 pt-14">
+      <CursorTrail />
+      <ScrollTrail />
       <Nav />
       <Routes>
         <Route path="/" element={<Overview />} />
