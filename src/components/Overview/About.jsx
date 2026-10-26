@@ -1,18 +1,18 @@
 const About = () => {
   return (
     <div className="text-center max-w-2xl">
-      <div className="space-y-3 px-4">
+      <div className="space-y-3 px-2">
         <p>Hey I'm Jason, welcome to my site!</p>
         <p>
-          I'm a lifelong coder that has been working professionally as a full-stack software engineer since 2020.
+          I'm a lifelong coder that's been working professionally as a full stack software engineer since 2021.
         </p>
         <p>
-          Over the years I've spent thousands of hours across various startups and established companies,
-          itarating on and refining my development practices and engineering philosophies.
+          Over the years I've spent thousands of hours at various startups and growth-stage companies,
+          iterating on and refining my development practices and engineering appraoch.
         </p>
         <p>
-          When I'm not coding or falling down the YouTube rabbit hole, I like to
-          spend my time traveling, skydiving, and learning new skills.
+          When I'm not coding or falling down a YouTube rabbit hole, I like to
+          spend my time traveling, learning about the world, skydiving, and aquiring new skills.
         </p>
       </div>
     </div>
