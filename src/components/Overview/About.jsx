@@ -8,7 +8,7 @@ const About = () => {
         </p>
         <p>
           Over the years I've spent thousands of hours at various startups and growth-stage companies,
-          iterating on and refining my development practices and engineering appraoch.
+          iterating on and refining my development practices and engineering approach.
         </p>
         <p>
           When I'm not coding or falling down a YouTube rabbit hole, I like to
